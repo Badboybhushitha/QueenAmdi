@@ -27,6 +27,7 @@ AMDI({ cmd: ["alive", "hi", "online"], desc: Lang.AliveDesc, type: "primary", re
             {type: "url", displayText: "🎞️ AN Tech YouTube Channel", url: 'https://www.youtube.com/channel/UCZx8U1EU95-Wn9mH4dn15vQ'},
             {type: "click", displayText: Lang.sysStats, buttonCMD: `${prefix}system`},
             {type: "click", displayText: Lang.vercheck, buttonCMD: `${prefix}qaversion`}
+            {type: "click", displayText: Lang.bhushitha, buttonCMD: '${prefix}alive'}
         ]
         return await sendButtonsMsg(buttons, {text: aliveTXT0, image: {url: alivePicURL0}, tagMsg: true});
     } else {

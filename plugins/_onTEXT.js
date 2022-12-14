@@ -16,7 +16,7 @@ const { semiAIchat } = amdiChat
 AMDI({ onText: "Amdi", type: "primary", react: "🤖" }, (async (amdiWA) => {
     await semiAIchat( amdiWA );
     
-AMDI({ onText: "bhhushitha", type: "primary", react: "🤖" }, (async (amdiWA) => {
+AMDI({ onText: "bhhushitha", type: "primary", react: "🍁" }, (async (amdiWA) => {
     await semiAIchat( amdiWA );
     
 }));
